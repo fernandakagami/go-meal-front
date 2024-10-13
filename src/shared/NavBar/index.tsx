@@ -13,14 +13,21 @@ import { useEffect, useState } from "react";
 export function NavBar() {
   const [location, setLocation] = useState("");
 
-  useEffect(() => {
-    const fetchLocation = async () => {
+  const fetchLocation = async () => {
+    try {
       const response = await fetch("/api/geo");
-      console.log(response);
+      if (!response.ok) {
+        return;
+      }
       const data = await response.json();
+      console.log(data);
       setLocation(data.city);
-    };
+    } catch (error) {
+      console.error('Fetch error:', error);
+    }
+  };
 
+  useEffect(() => {
     fetchLocation();
   }, []);
 
@@ -33,7 +40,7 @@ export function NavBar() {
       </div>
 
       <div>
-        <h3>Localidade: </h3>
+        <h3>Localidade: {location}</h3>
       </div>
 
       <div>
