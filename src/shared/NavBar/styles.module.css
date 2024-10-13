@@ -1,0 +1,23 @@
+.navbar-container {
+  @apply w-[1000px] mx-auto my-4 flex items-center justify-between flex-row;
+}
+
+.logo-container {
+  @apply flex items-baseline flex-row justify-start gap-2;
+}
+
+.logo-container h1 {
+  @apply text-3xl font-bold;
+}
+
+.logo-detail {
+  @apply text-[var(--orange-500)];
+}
+
+.login-button {
+  @apply text-[var(--yellow-500)] flex flex-row gap-1 font-semibold text-base;
+}
+
+.login-button:hover {
+  @apply bg-white shadow-lg shadow-[var(--yellow-500)] text-[var(--yellow-500)];
+}
