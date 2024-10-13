@@ -21,3 +21,11 @@
 .login-button:hover {
   @apply bg-white shadow-lg shadow-[var(--yellow-500)] text-[var(--yellow-500)];
 }
+
+.location-container {
+  @apply flex flex-row gap-1 items-center justify-between;
+}
+
+.location-title {
+  @apply text-lg font-semibold;
+}

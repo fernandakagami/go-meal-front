@@ -6,7 +6,7 @@ import Image from "next/image";
 import logo from "@/assets/logo.svg";
 
 import styles from "./styles.module.css";
-import { User } from "lucide-react";
+import { MapPin, User } from "lucide-react";
 
 import { useEffect, useState } from "react";
 
@@ -20,7 +20,7 @@ export function NavBar() {
         return;
       }
       const data = await response.json();
-      console.log(data);
+
       setLocation(data.city);
     } catch (error) {
       console.error('Fetch error:', error);
@@ -39,8 +39,10 @@ export function NavBar() {
         <h1>GoMeal<b className={styles["logo-detail"]}>.</b></h1>
       </div>
 
-      <div>
-        <h3>Localidade: {location}</h3>
+      <div className={styles["location-container"]}>
+        <span className={styles["location-title"]}>Localidade:</span>
+        <MapPin color="var(--orange-500)" size={18} /> 
+        <p>{location ? location : "Local não encontrado"}</p>
       </div>
 
       <div>
