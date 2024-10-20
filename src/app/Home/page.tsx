@@ -1,4 +1,5 @@
 import { Banner } from "@/shared/Banner";
+import { PopularMeal } from "@/shared/PopularMeal";
 import { Sale } from "@/shared/Sale";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Banner />
       <Sale />
+      <PopularMeal />
     </>
   )
 }

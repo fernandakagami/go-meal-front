@@ -1,0 +1,27 @@
+.item-container {
+  @apply flex flex-col gap-1 items-start justify-center relative;
+}
+
+.popular-image {
+  @apply w-full object-cover rounded-xl mb-3;
+}
+
+.info-container {
+  @apply flex flex-col items-start justify-center gap-1;
+}
+
+.popular-title {
+  @apply text-sm font-bold;
+}
+
+.store-container {
+  @apply flex gap-1 items-center flex-row text-[var(--yellow-400)] text-sm justify-center;
+}
+
+.price {
+  @apply text-sm font-bold;
+}
+
+.button {
+  @apply bg-[var(--orange-500)] text-white text-sm font-bold rounded-md w-full text-center mt-4 p-5;
+}
