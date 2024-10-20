@@ -1,6 +1,6 @@
-import { Banner } from "@/shared/Banner";
-import { PopularMeal } from "@/shared/PopularMeal";
-import { Sale } from "@/shared/Sale";
+import { Banner } from "@/modules/Banner";
+import { PopularMeal } from "@/modules/PopularMeal";
+import { Sale } from "@/modules/Sale";
 
 export default function Home() {
   return (

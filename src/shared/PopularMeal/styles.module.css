@@ -1,7 +1,0 @@
-.popular-title {
-  @apply text-2xl font-extrabold text-center w-full mb-16;
-}
-
-.popular-container {
-  @apply w-[1200px] mx-auto mb-12 grid-cols-5 grid gap-2 items-center;
-}

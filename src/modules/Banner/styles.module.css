@@ -1,5 +1,5 @@
 .banner-container {  
-  background: radial-gradient(circle,  var(--yellow-300) 50%,  var(--orange-500) 100%);
+  background: radial-gradient(circle,  var(--yellow-400) 50%,  var(--orange-500) 100%);
   @apply h-[600px] flex justify-end items-end;
 }
 
