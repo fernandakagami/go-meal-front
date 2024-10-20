@@ -1,5 +1,5 @@
 .navbar-container {
-  @apply w-[1000px] mx-auto my-4 flex items-center justify-between flex-row;
+  @apply w-[1200px] mx-auto my-4 flex items-center justify-between flex-row;
 }
 
 .logo-container {

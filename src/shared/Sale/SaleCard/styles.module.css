@@ -1,0 +1,19 @@
+.sale-container {
+  @apply w-[1200px] mx-auto my-4 grid-cols-4 grid gap-2 h-[450px] items-center;
+}
+
+.item-container {
+  @apply flex flex-col gap-2 items-start justify-center relative;
+}
+
+.sale-image {
+  @apply w-full object-cover rounded-xl;
+}
+
+.discount-container {
+  @apply bg-[var(--orange-500)] text-white text-center rounded-bl-xl rounded-tr-xl absolute bottom-[64px] text-3xl p-3 left-0;
+}
+
+.title-sale {
+  @apply text-sm font-bold pt-3 -mb-2;
+}

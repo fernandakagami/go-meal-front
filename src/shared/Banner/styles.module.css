@@ -1,11 +1,10 @@
-.banner-container {
-  background: var(--orange-500);
-  background: radial-gradient(circle,  var(--yellow-500) 0%,  var(--orange-500) 100%);
-  @apply h-[720px] flex justify-end items-end;
+.banner-container {  
+  background: radial-gradient(circle,  var(--yellow-300) 50%,  var(--orange-500) 100%);
+  @apply h-[600px] flex justify-end items-end;
 }
 
 .banner-content {
-  @apply w-[1000px] mx-auto grid grid-cols-[60%_40%] h-full;
+  @apply w-[1200px] mx-auto grid grid-cols-[60%_40%] h-full;
 }
 
 .content-container {
