@@ -1,0 +1,11 @@
+.footer-container {
+  @apply bg-gray-800 text-white;
+}
+
+.footer-wrapper {
+  @apply flex flex-row items-center justify-between pt-3 pb-10 w-[1200px] mx-auto text-xs;
+}
+
+.copyright {
+  @apply flex flex-row items-center justify-between gap-2;
+}

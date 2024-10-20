@@ -11,6 +11,6 @@
 }
 
 .section-title {
-  @apply text-2xl font-extrabold text-center w-full mb-16;
+  @apply text-2xl font-extrabold text-center w-full mb-16 mt-24;
 }
 
