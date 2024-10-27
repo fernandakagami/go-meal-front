@@ -2,6 +2,18 @@
   @apply bg-gray-800 text-white;
 }
 
+.link-container {
+  @apply w-[1200px] mx-auto py-10 border-b-[1px];
+}
+
+.link-title {
+  @apply text-base font-bold mb-3;
+}
+
+.link {
+  @apply text-xs;
+}
+
 .footer-wrapper {
   @apply flex flex-row items-center justify-between pt-3 pb-10 w-[1200px] mx-auto text-xs;
 }
