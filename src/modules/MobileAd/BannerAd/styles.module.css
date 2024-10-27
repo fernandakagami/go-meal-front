@@ -1,0 +1,18 @@
+.banner-container {
+  @apply flex flex-row gap-6 items-center justify-center bg-white w-[650px] mx-auto rounded-3xl h-40 text-[var(--orange-400)] px-3;
+}
+
+.detail {
+  @apply flex flex-row gap-6 items-center justify-center;
+}
+
+.detail:first-child {
+  @apply border-r-[1px] border-[var(--gray-100)] pe-6 ps-6;  
+}
+
+.title {    
+  background: -webkit-linear-gradient(var(--orange-700), var(--yellow-400));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  @apply font-bold text-xl;
+}

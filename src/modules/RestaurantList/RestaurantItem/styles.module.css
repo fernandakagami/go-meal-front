@@ -1,0 +1,27 @@
+.item-container {
+  @apply flex flex-col gap-2 items-start justify-center relative;
+}
+
+.restaurant-image {
+  @apply w-full object-cover rounded-xl;
+}
+
+.restaurant-wrapper {
+  @apply flex flex-row gap-3 items-center;
+}
+
+.logo {
+  @apply w-12 h-12 object-cover rounded-lg;
+}
+
+.restaurant-title {
+  @apply flex flex-col items-start;
+}
+
+.restaurant-name {
+  @apply text-sm font-bold;
+}
+
+.restaurant-score {
+  @apply flex flex-row gap-1 items-center text-[var(--yellow-400)] text-sm font-bold;
+}
