@@ -1,7 +1,0 @@
-.image-container {
-  @apply rounded-full w-[180px] cursor-pointer;
-}
-
-.search-title {
-  @apply font-bold text-center mt-6;
-}
